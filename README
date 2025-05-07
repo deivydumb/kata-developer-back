@@ -1,0 +1,19 @@
+# 📦 Repositorio de Lambdas para AWS
+
+Este repositorio contiene la **extracción de código fuente** de funciones **AWS Lambda**, cada una en su propio archivo `.js`. Estas funciones están diseñadas para ejecutarse en AWS Lambda y hacer uso de servicios externos como **Supabase**.
+
+---
+
+## 📂 Estructura del Proyecto
+
+- Cada archivo `.js` representa **una función Lambda individual**.
+- Algunas funciones pueden requerir empaquetado junto con dependencias (por ejemplo, `@supabase/supabase-js`) para ser desplegadas correctamente.
+- Se incluye un `package.json` general o individuales según la necesidad.
+
+### Ejemplo de archivos:
+
+
+## 🚀 ¿Qué es una Lambda en este contexto?
+
+Una función AWS Lambda es una unidad de código ejecutable que responde a eventos en la nube (como HTTP, SQS, o invocaciones directas). Aquí cada archivo `.js` es ese código, y debe ser empaquetado adecuadamente si usa librerías como Supabase.
+
